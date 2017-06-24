@@ -1,7 +1,12 @@
 # keras-tensorflow
 Musings with Keras &amp; Tensorflow
 
-# Installing Keras & TensorFlow on Mac OS X
+# Installing Anaconda & Jupyter Notebook (preferred method)
+https://www.continuum.io/downloads#macos
+
+https://jupyter.org/install.html
+
+# Installing Keras & TensorFlow on Mac OS X (alternative method)
 - Using Virtualenv setup & Python 3
 
 1. $ sudo easy_install pip [br]
@@ -16,8 +21,8 @@ where <targetDirectory> identifies the top of the virtualenv tree. I'm assuming 
 9. $ pip install h5py
 10. $ pip install keras
 
-# Activating virtualenv to run code
+### Activating virtualenv to run code
 $ source ~/keras_tf/bin/activate
 
-# Deactivating virtualenv
+### Deactivating virtualenv
 (tensorflow)$ deactivate 
